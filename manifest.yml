@@ -1,0 +1,10 @@
+---
+applications:
+- name: CNN_Classifire
+  memory: 1GB
+  disk_quota: 1GB
+  random-route: true
+  parameters:
+    memory: 1GB
+    buildpack: 'python-buildpack'
+
